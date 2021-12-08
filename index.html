@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>Home - 中设数字图形引擎SDK</title>
+    
+    <meta name="description" content="中设数字图形引擎" />
+    
+        <meta name="keywords" content="中设数字图形引擎" />
+        <meta name="keyword" content="中设数字图形引擎" />
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://ren3.cbim.org.cn" target="_blank" class="menu-item" id="website_link" >项目主页</a></h2><h3>Classes</h3><ul><li><a href="RenderViewer.html">RenderViewer</a><ul class='methods'><li data-type='method'><a href="RenderViewer.html#getWsInfo">getWsInfo</a></li><li data-type='method'><a href="RenderViewer.html#destroy">destroy</a></li></ul></li><li><a href="ApiBrooming.html">ApiBrooming</a><ul class='members'><li data-type='member'><a href="ApiBrooming.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E6%2598%25AF%25E5%2590%25A6%25E5%25BC%2580%25E5%2590%25AF">设置是否开启</a></li><li data-type='member'><a href="ApiBrooming.html#.%25E6%2595%2588%25E6%259E%259C%25E5%258F%2582%25E6%2595%25B0%25E9%2585%258D%25E7%25BD%25AE">效果参数配置</a></li></ul></li><li><a href="ApiCore.html">ApiCore</a><ul class='members'><li data-type='member'><a href="ApiCore.html#.%25E8%258E%25B7%25E5%258F%2596%25E6%25A8%25A1%25E5%259E%258B%25E4%25BF%25A1%25E6%2581%25AF">获取模型信息</a></li><li data-type='member'><a href="ApiCore.html#.%25E8%258E%25B7%25E5%258F%2596%25E5%25BD%2593%25E5%2589%258D%25E7%2594%25A8%25E6%2588%25B7%25E4%25BF%25A1%25E6%2581%25AF">获取当前用户信息</a></li><li data-type='member'><a href="ApiCore.html#.%25E5%259B%259E%25E5%25BD%2592%25E4%25B8%25BB%25E8%25A7%2586%25E5%259B%25BE">回归主视图</a></li><li data-type='member'><a href="ApiCore.html#.%25E5%2588%2587%25E6%258D%25A2viewcube%25E8%25A7%2586%25E5%259B%25BE">切换viewcube视图</a></li><li data-type='member'><a href="ApiCore.html#.%25E9%2587%258D%25E7%25BD%25AE%25E6%25A8%25A1%25E5%259E%258B">重置模型</a></li><li data-type='member'><a href="ApiCore.html#.%25E4%25BF%259D%25E5%25AD%2598%25E5%259C%25BA%25E6%2599%25AF">保存场景</a></li><li data-type='member'><a href="ApiCore.html#.%25E6%2581%25A2%25E5%25A4%258D%25E5%259C%25BA%25E6%2599%25AF">恢复场景</a></li><li data-type='member'><a href="ApiCore.html#.%25E5%25BF%2583%25E8%25B7%25B3%25E6%25A3%2580%25E6%25B5%258B">心跳检测</a></li><li data-type='member'><a href="ApiCore.html#.%25E8%258E%25B7%25E5%258F%2596%25E5%2590%258C%25E6%25AD%25A5%25E6%2595%25B0%25E6%258D%25AE">获取同步数据</a></li><li data-type='member'><a href="ApiCore.html#.%25E6%259F%25A5%25E8%25AF%25A2%25E6%25A8%25A1%25E5%259E%258B%25E5%258A%25A0%25E8%25BD%25BD%25E8%25BF%259B%25E5%25BA%25A6">查询模型加载进度</a></li><li data-type='member'><a href="ApiCore.html#.%25E6%25B8%2585%25E9%2599%25A4%25E5%25BD%2593%25E5%2589%258D%25E7%259A%2584%25E6%25A8%25A1%25E5%259E%258B%25E5%25AE%259E%25E4%25BE%258B">清除当前的模型实例</a></li><li data-type='member'><a href="ApiCore.html#.%25E9%2587%258D%25E6%2596%25B0%25E8%25BF%259E%25E6%258E%25A5">重新连接</a></li></ul></li><li><a href="ApiCullBox.html">ApiCullBox</a><ul class='members'><li data-type='member'><a href="ApiCullBox.html#.%25E6%2589%2593%25E5%25BC%2580%25E5%259C%25BA%25E6%2599%25AF%25E5%2589%2596%25E5%2588%2587%25E7%259B%2592">打开场景剖切盒</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E9%2587%258D%25E7%25BD%25AE%25E5%259C%25BA%25E6%2599%25AF%25E5%2589%2596%25E5%2588%2587%25E7%259B%2592">重置场景剖切盒</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E5%2585%25B3%25E9%2597%25AD%25E5%259C%25BA%25E6%2599%25AF%25E5%2589%2596%25E5%2588%2587%25E7%259B%2592">关闭场景剖切盒</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E6%2589%2593%25E5%25BC%2580%25E8%25BD%25B4%25E5%2590%2591%25E5%2589%2596%25E5%2588%2587">打开轴向剖切</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E8%25B0%2583%25E6%2595%25B4%25E5%2589%2596%25E5%2588%2587%25E7%259B%2592%25E4%25BD%258D%25E7%25BD%25AE">调整剖切盒位置</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E5%2589%2596%25E5%2588%2587%25E9%2580%2589%25E4%25B8%25AD%25E7%259A%2584%25E6%259E%2584%25E4%25BB%25B6">剖切选中的构件</a></li><li data-type='member'><a href="ApiCullBox.html#.%25E6%2581%25A2%25E5%25A4%258D%25E8%25A2%25AB%25E5%2589%2596%25E5%2588%2587%25E7%259A%2584%25E6%259E%2584%25E4%25BB%25B6">恢复被剖切的构件</a></li></ul></li><li><a href="ApiDisplayMode.html">ApiDisplayMode</a><ul class='members'><li data-type='member'><a href="ApiDisplayMode.html#.%25E6%2598%25BE%25E7%25A4%25BA%25E9%25A3%258E%25E6%25A0%25BC%25E8%25AE%25BE%25E7%25BD%25AE">显示风格设置</a></li></ul></li><li><a href="ApiMeasure.html">ApiMeasure</a><ul class='members'><li data-type='member'><a href="ApiMeasure.html#.%25E6%2589%2593%25E5%25BC%2580%25E6%259F%2590%25E7%25A7%258D%25E6%25B5%258B%25E9%2587%258F%25E6%25A8%25A1%25E5%25BC%258F">打开某种测量模式</a></li><li data-type='member'><a href="ApiMeasure.html#.%25E5%2585%25B3%25E9%2597%25AD%25E6%25B5%258B%25E9%2587%258F">关闭测量</a></li><li data-type='member'><a href="ApiMeasure.html#.%25E8%25AE%25A1%25E7%25AE%2597%25E5%25B9%25B6%25E8%25BF%2594%25E5%259B%259E%25E9%259D%25A2%25E7%25A7%25AF%25E6%25B5%258B%25E9%2587%258F%25E5%2580%25BC">计算并返回面积测量值</a></li><li data-type='member'><a href="ApiMeasure.html#.%25E5%2588%25A0%25E9%2599%25A4%25E5%258D%2595%25E4%25B8%25AA%25E6%25B5%258B%25E9%2587%258F%25E7%25BB%2593%25E6%259E%259C">删除单个测量结果</a></li></ul></li><li><a href="ApiSettings.html">ApiSettings</a><ul class='members'><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E9%25BC%25A0%25E6%25A0%2587%25E7%2581%25B5%25E6%2595%258F%25E5%25BA%25A6">设置鼠标灵敏度</a></li><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E9%25BC%25A0%25E6%25A0%2587%25E7%2582%25B9%25E5%2587%25BB%25E6%2593%258D%25E4%25BD%259C">设置鼠标点击操作</a></li><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E6%25B8%25B2%25E6%259F%2593%25E7%25B2%25BE%25E7%25BB%2586%25E5%25BA%25A6">设置渲染精细度</a></li><li data-type='member'><a href="ApiSettings.html#.%25E6%25B8%25B2%25E6%259F%2593%25E5%259B%25BE%25E5%2583%258F%25E8%25AE%25BE%25E7%25BD%25AE%25EF%25BC%258C%25E9%2580%258F%25E6%2598%258E%25E5%25BA%25A6%25EF%25BC%258C%25E5%25AF%25B9%25E6%25AF%2594%25E5%25BA%25A6%25EF%25BC%258C%25E4%25BA%25AE%25E5%25BA%25A6%25E7%25AD%2589">渲染图像设置，透明度，对比度，亮度等</a></li><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E6%258A%2595%25E5%25BD%25B1%25E7%25B1%25BB%25E5%259E%258B%25EF%25BC%259A%25E6%25AD%25A3%25E4%25BA%25A4%25E6%258A%2595%25E5%25BD%25B1%25EF%25BC%258C%25E9%2580%258F%25E8%25A7%2586%25E6%258A%2595%25E5%25BD%25B1">设置投影类型：正交投影，透视投影</a></li><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E8%2583%258C%25E9%259D%25A2%25E5%2589%2594%25E9%2599%25A4">设置背面剔除</a></li><li data-type='member'><a href="ApiSettings.html#.%25E8%25AE%25BE%25E7%25BD%25AE%25E7%259B%25B8%25E6%259C%25BA%25E5%258F%2582%25E6%2595%25B0">设置相机参数</a></li></ul></li><li><a href="ApiSkybox.html">ApiSkybox</a><ul class='members'><li data-type='member'><a href="ApiSkybox.html#.%25E6%2598%25BE%25E7%25A4%25BA/%25E9%259A%2590%25E8%2597%258F%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592">显示/隐藏天空盒</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E5%2588%2587%25E6%258D%25A2%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592">切换天空盒</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592%25E8%25A7%2592%25E5%25BA%25A6%25E8%25AE%25BE%25E7%25BD%25AE">天空盒角度设置</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E6%2589%2593%25E5%25BC%2580/%25E5%2585%25B3%25E9%2597%25AD%25E9%25AB%2598%25E7%25BA%25A7%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592">打开/关闭高级天空盒</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E9%25AB%2598%25E7%25BA%25A7%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592%25E4%25BA%2591%25E5%25B1%2582%25E5%25BD%25A2%25E7%258A%25B6%25E8%25AE%25BE%25E7%25BD%25AE">高级天空盒云层形状设置</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E9%25AB%2598%25E7%25BA%25A7%25E5%25A4%25A9%25E7%25A9%25BA%25E7%259B%2592%25E4%25BA%2591%25E5%25B1%2582%25E5%25AF%2586%25E5%25BA%25A6%25E8%25AE%25BE%25E7%25BD%25AE">高级天空盒云层密度设置</a></li><li data-type='member'><a href="ApiSkybox.html#.%25E5%2585%2589%25E7%2585%25A7%25E6%25A8%25A1%25E6%258B%259F%25E8%25AE%25BE%25E7%25BD%25AE">光照模拟设置</a></li></ul></li><li><a href="ApiTopography.html">ApiTopography</a><ul class='members'><li data-type='member'><a href="ApiTopography.html#.%25E6%2598%25BE%25E7%25A4%25BA/%25E9%259A%2590%25E8%2597%258F%25E5%259C%25B0%25E5%25BD%25A2">显示/隐藏地形</a></li></ul></li></ul>
+</nav>
+
 <div id="main">
-
-    <h1 class="page-title">Home</h1>
+    
 
     
 
@@ -26,8 +54,9 @@
     
 
 
-    <h3> </h3>
-
+    <section class="package">
+        <h3> </h3>		
+    </section>
 
 
 
@@ -41,8 +70,7 @@
 
 
 
-
-    <section>
+    <section class="readme usertext">
         <article><h2>实例说明</h2>
 <ul>
 <li>实例如若不用，请及时释放资源</li>
@@ -197,19 +225,23 @@ if (responseData.from == &quot;web&quot;) {
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ApiBrooming.html">ApiBrooming</a></li><li><a href="ApiCore.html">ApiCore</a></li><li><a href="ApiCullBox.html">ApiCullBox</a></li><li><a href="ApiDisplayMode.html">ApiDisplayMode</a></li><li><a href="ApiMeasure.html">ApiMeasure</a></li><li><a href="ApiSettings.html">ApiSettings</a></li><li><a href="ApiSkybox.html">ApiSkybox</a></li><li><a href="ApiTopography.html">ApiTopography</a></li><li><a href="RenderViewer.html">RenderViewer</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.7</a> on Wed Dec 01 2021 17:55:54 GMT+0800 (中国标准时间)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a> on Wed Dec 08 2021 10:53:14 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
 </body>
 </html>
